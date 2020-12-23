@@ -1,6 +1,6 @@
 import React from "react";
 // import { Container } from "react-bootstrap";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -11,7 +11,7 @@ import Contact from "./pages/Contact"
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <Router>
       <Header />
     <div className="App">
       <Switch>
@@ -29,7 +29,7 @@ function App() {
       </Switch>
     </div>
     <Footer />
-    </HashRouter>
+    </Router>
   );
 }
 
