@@ -13,7 +13,7 @@ export default class Bio extends Component {
             <div className="col-md-4" id="bio-pic">
            
              
-              <img className="col-md-8" src="../../images/Outdoor Profile.jpg" alt="bio pic"/>
+              <img className="col-md-8" src="images/Outdoor Profile.jpg" alt="bio pic"/>
               
             
             
